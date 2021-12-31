@@ -29,7 +29,7 @@ const Tickets = () => {
                         data={consta.ticketQuestions}
                         color='#FFF022'/>
                     <div className={cs.info}>
-                        <h3>Early bird registration now open</h3>
+                        <h3>Early bird registration now opens</h3>
                     </div>
                 </div>
             </div>
