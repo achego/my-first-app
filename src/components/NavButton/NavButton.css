@@ -1,0 +1,11 @@
+.NavButton {
+    padding: 3px;
+}
+
+.NavButton div {
+    width: 1.3rem;
+    height: 2px;
+    background-color: lightcyan;
+    margin: 4px 0;
+    background-color: rgb(60, 153, 240);
+}

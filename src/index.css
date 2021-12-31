@@ -1,5 +1,111 @@
+:root {
+  --bg-color: black;
+  --text-color: white;
+  --appbar-height: 5rem;
+  --mobile-pixel: 980px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.h1 {
+  letter-spacing: 12px;
+  word-spacing: 5px;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.h2 {
+  font-size: 4.7rem;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: 400
+}
+
+.h3 {
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+  word-spacing: 2.5px;
+  font-weight: 500;
+}
+
+.bold_text {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.small_p {
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+}
+
+.h4 {
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-size: 1.9rem;
+  line-height: 3rem;
+  font-weight: 400;
+}
+
+.p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 2rem;
+}
+
+
+@media screen and (max-width: 980px) {
+  .h1 {
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    word-spacing: 2.5px;
+    font-weight: 500;
+  }
+
+  .h2 {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    font-weight: 400;
+  }
+
+  .h3 {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    font-weight: 400;
+  }
+
+  .h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 2rem;
+  }
+
+  .p {
+    font-size: 1rem;
+  }
 }

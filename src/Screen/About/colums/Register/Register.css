@@ -1,0 +1,87 @@
+.Register {
+    background-color: #6700FF;
+    padding: 3.4rem 0; 
+}
+
+.Register .main {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.Register .button h2{
+    padding: 2.7rem 0 2.7rem 3.4rem;
+    text-align: start;
+    background-color: black;
+    transition: background-color 0.3s 0.1s, color 0.2s 0.1s;
+    font-size: 4.3rem;
+}
+
+.Register .button h2:hover {
+    background-color: #FF6AF0;
+    color: black;
+    cursor: pointer;
+}
+
+.Register .button p {
+    padding: 2rem 0;
+}
+
+.Register .button ul {
+    list-style: none;
+    display: flex;
+}
+
+.Register .button li {
+    width: 2rem;
+    height: 1.5rem;
+    background-color: cornsilk;
+    margin-right: 3rem;
+}
+
+.Register .form {
+    padding: 10rem 2.5rem 3.8rem;
+    background-color: white;
+    color: black;
+}
+
+.Register .form div {
+    width: 95%;
+    margin: auto;
+}
+
+.Register .form h3 {
+    padding-bottom: 10px;
+}
+
+.Register .form input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 0.9rem 1rem;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.Register .subscribe {
+    margin: 0;
+    width: 100%;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 980px) {
+    .Register .main {
+        display: block;
+    }
+
+    .Register .button h2 {
+        padding: 3.2rem 10rem 3.2rem 3.2rem;
+        line-height: 6rem;
+    }
+
+    .Register .form {
+        margin-top: 4rem;
+    }
+    
+}

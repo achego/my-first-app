@@ -1,0 +1,42 @@
+.Organiser {
+    text-align: center;
+    width: fit-content;
+    overflow-wrap: break-word;
+}
+
+.Organiser div {
+    height: 10rem;
+    width: 10rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin-bottom: 1.9rem;
+}
+
+.Organiser .position {
+    color: #FFF022;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.Organiser .name {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+@media screen and (max-width: 980px) {
+    .Organiser div {
+        height: 8rem;
+        width: 8rem;
+        padding: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .Organiser .name {
+        font-size: 1.2rem;
+    }
+    
+}

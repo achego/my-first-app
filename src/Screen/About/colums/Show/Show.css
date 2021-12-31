@@ -1,0 +1,17 @@
+.Show {
+    padding: 6.3rem 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 4rem;
+}
+
+@media screen and (max-width: 980px) {
+    .Show {
+        display: block;
+
+    }
+
+    .Show p {
+        padding-top: 2rem;
+    }
+}

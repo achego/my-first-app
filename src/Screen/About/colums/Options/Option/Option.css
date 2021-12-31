@@ -1,0 +1,50 @@
+.Option {
+    padding: 1.3rem;
+    margin: 2rem 0;
+    cursor: pointer;
+    color: #FF6AF0;
+    overflow: hidden;
+    height: 5.3rem;
+    background-color: transparent;
+    transition: height 1s 0.3s, color 0.3s 1s, background-color 0.3s 1s;
+}
+
+.Option .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Option .details div {
+    text-align: center;
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: #FF6AF0;
+    border-radius: 100%;
+    color: black;
+    font-size: 1rem;
+    opacity: 1;
+    transition: opacity 0.3s 1s;
+}
+
+.Option .desc {
+    padding-top: 1.3rem;
+}
+
+.showMore {
+    background-color: #FF6AF0;
+    color: black;
+    height: 10rem;
+    
+}
+
+.yellow {
+    background-color: #FFF022;
+}
+
+@media screen and (max-width: 980px) {
+    .Option {
+        margin: 0.7rem 0;
+    }
+    
+}

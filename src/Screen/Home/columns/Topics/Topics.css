@@ -1,0 +1,13 @@
+.Topics {
+    padding: 3.4rem 0;
+}
+
+.Topics h2 {
+    padding: 1.7rem 0;
+}
+
+.Topics .topics {
+    padding: 1.7rem 0;
+    display: flex;
+    justify-content: space-between;
+}

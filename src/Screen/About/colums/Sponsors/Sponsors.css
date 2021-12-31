@@ -1,0 +1,23 @@
+.Sponsors {
+    padding: 3.4rem 0;
+}
+
+.Sponsors h2 {
+    padding: 1.7rem 0;
+}
+
+.Sponsors div {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 10rem);
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    .Sponsors div {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    
+}

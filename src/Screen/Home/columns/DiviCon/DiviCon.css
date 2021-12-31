@@ -1,0 +1,39 @@
+.DiviCon {
+    padding: 3.4rem 0;
+    text-transform: capitalize;
+    max-width: 500px;
+    margin: auto;
+    
+}
+
+.DiviCon span {
+    color: white;
+}
+
+.DiviCon h1 {
+    color: #FFF022;
+    border: 7px solid #FFF022;
+    padding: 3.75rem;
+}
+
+.DiviCon .registerN {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.DiviCon .registerN h3{
+    font-size: 2.8rem;
+}
+
+.DiviCon .registerN div {
+    padding: 1.6rem 2.5rem;
+    background-color: #FFF022;
+    font-size: 3rem;
+    color: black;
+}
+
+.DiviCon p {
+    padding-bottom: 1.7rem;
+}

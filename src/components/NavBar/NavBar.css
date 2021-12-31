@@ -1,0 +1,86 @@
+.NavBar {
+   
+    background-color: white;
+    padding: 0 3rem;
+    color: #20292F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.NavBar .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.NavBar .nav_btn {
+    display: none;
+}
+
+.NavBar .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 1.7rem;
+    transition: padding 0.4s 0.1s;
+}
+
+.NavBar .dropdown {
+    display: none;
+}
+
+.NavBar nav {
+  padding: 1.813rem 0;
+  transition: padding 0.4s 0.1s;
+}
+
+.NavBar .reduce_nav {
+    padding: 1rem 0;
+}
+
+.NavBar .reduce_title {
+    padding-top: 0.85rem;
+}
+
+
+/* Mobile View */
+
+@media screen and (max-width: 980px) {
+    .NavBar {
+        padding: 0;
+        height: var(--appbar-height);
+        color: #20292F;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .NavBar .container {
+        margin: auto;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .NavBar .dropdown {
+        display: block;
+    }
+
+    .NavBar .nav_btn {
+        display: block;
+    }
+
+    .NavBar .title {
+        padding: 0;
+    }
+
+    .NavBar nav {
+        display: none;
+    }
+
+
+}

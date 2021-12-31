@@ -1,0 +1,22 @@
+.Button {
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    border: none;
+    width: 10.2rem;
+}
+
+.Button span {
+    display: inline-block;
+    padding: 0;
+    transform: translateX(-1.3vh);
+    transition: transform 0.3s, opacity 0.2s, padding 0.3s;
+    opacity: 0;
+    font-weight: 600;
+}
+
+.Button:hover span{
+    transform: translateX(-1vh);  
+    padding-left: 0.8rem; 
+    opacity: 1;
+}

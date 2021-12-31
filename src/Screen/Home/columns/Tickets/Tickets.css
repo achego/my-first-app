@@ -1,0 +1,15 @@
+.Tickets {
+    padding: 3.4rem 0;
+}
+
+.Tickets .dates {
+    padding: 1.7rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tickets .ticketdetails {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    
+}

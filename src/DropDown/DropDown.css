@@ -1,0 +1,21 @@
+.DropDown {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: var(--appbar-height);
+    overflow: hidden;
+}
+
+.DropDown .container {
+    height: 0px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    border-top: 0px solid transparent;
+    transition: height 0.8s, border-top 0.3s;
+}
+
+.DropDown .reduce {
+    height: 472px;
+    border-top: 3px solid rgb(89, 154, 214);
+}

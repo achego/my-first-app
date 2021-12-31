@@ -1,0 +1,14 @@
+.Date {
+    padding: 2.5rem 2.5rem 7.5rem;
+    text-align: start;
+    width: 21.2rem;
+    height: 29.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.Date> h2 {
+    text-align: start;
+}

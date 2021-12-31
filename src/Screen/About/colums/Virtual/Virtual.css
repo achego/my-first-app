@@ -1,0 +1,49 @@
+.Virtual {
+    padding: 3.4rem 0;
+}
+
+.Virtual .container {
+    border: 7px solid #9046FE; 
+    width: 100%;
+    display: flex;
+}
+
+.Virtual .text {
+    padding: 3.5rem 3rem;  
+    width: 50%;
+    margin-right: 1rem;
+    overflow-wrap: break-word;
+}
+
+.Virtual .image {
+    background-color: #9046FE;
+    width: 50%;
+}
+
+.Virtual .v_button {
+    background-color: transparent;
+    color: #FFF022;
+}
+
+.Virtual .v_button:hover {
+    background-color: #FFF022;
+    color: black;
+}
+
+
+@media screen and (max-width: 980px) {
+
+    .Virtual .container {
+        flex-direction: column;
+    }
+
+    .Virtual .text {
+        width: auto;
+    }
+
+    .Virtual .image {
+        height: 400px;
+        width: 100%;
+    }
+    
+}

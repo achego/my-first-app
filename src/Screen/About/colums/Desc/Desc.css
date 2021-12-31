@@ -1,0 +1,21 @@
+.Desc {
+    display: grid;
+    padding: 3.4rem 0;
+    grid-template-columns: 1.1fr 1fr;
+    column-gap: 4rem;
+}
+
+.Desc div p {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    .Desc {
+        display: block;
+    }
+
+    .Desc h4 {
+        padding-bottom: 2rem;
+
+    }
+}

@@ -1,0 +1,35 @@
+.Footer {
+    background-color: rgb(27, 27, 27);; 
+    padding: 1rem;
+    color: rgba(179, 179, 179, 0.589);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.Footer >div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 6rem;
+}
+
+.Footer li {
+    width: 0.8rem;
+    height: 1rem;
+    border: 1px solid rgba(179, 179, 179, 0.589);
+}
+
+@media screen and (max-width: 980px) {
+    .Footer >div {
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+        row-gap: 1.4rem;
+    }
+    
+}
